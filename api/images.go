@@ -15,27 +15,31 @@ var apiKey = os.Getenv("FLICKR_API_KEY")
 
 var animals = []string{
 	"monkey",
-	"dog",
 	"cat",
-	"squirrel",
-	"bird",
+	"dog",
+	"wolf",
+	"fox",
 	"gorilla",
-	"penguin",
-	"cow",
-	"chicken",
 	"lemur",
+	"lion",
+	"tiger",
+	"owl",
+	"otter",
+	"bear",
+	"polar bear",
+	"hedgehog",
 }
 
 var emotions = []string{
 	"happy",
 	"sad",
-	"funny",
-	"angry",
-	"eating",
+	"", // neutral
+	"silly",
+	"feeding",
 	"sleeping",
-	"crazy",
-	"laughing",
-	"yawning",
+	"surprised",
+	"jumping",
+	"mouth open",
 }
 
 type RawPhotosResponse struct {
